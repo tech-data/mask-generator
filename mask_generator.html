@@ -1,0 +1,44 @@
+<head><link rel="stylesheet" href="mask.css">
+   <style> .container {
+        display: inline-block;
+    }
+    
+    .mask {
+        display: inline-block;
+    }
+    </style>
+    <script type="text/javascript" src="mask.js"></script>
+
+</head>
+
+<div class="container">
+  <div>
+    <canvas id="canvas" width="500" height="500"></canvas>
+  </div>
+  <div>
+    <button id="save" type="button">
+      save
+    </button>
+    <input
+      type="file"
+      id="load"
+      name="avatar"
+      accept="image/png"
+    >
+  </div>
+</div>
+<div class="mask">
+  <div>
+    <canvas id="canvas2" width="500" height="500" > </canvas>
+  </div>
+  <div>
+    <button id="save2" type="button">
+      save
+    </button>
+    <button
+      id="clear"
+      type="button"  > clear </button>
+    
+    
+  </div>
+</div>
